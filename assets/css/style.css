@@ -51,7 +51,7 @@ html{
 
 /*Main*/
 #main{
-
+    overflow: hidden;
 }
 #header{
     height:46px;
@@ -60,6 +60,8 @@ html{
     top :0;
     left:0;
     right:0;
+    z-index: 1;
+    overflow: hidden;
 
 
 }
@@ -123,18 +125,35 @@ html{
     background-color: #ccc;
     
 }
+
 #header .search-btn:hover{
     background-color: red;
 
 }
 
+#header .mobile-menu-btn:hover{
+    background-color: #ccc;
+}
+header .mobile-menu-btn:hover .menu-icon{
+    background-color: #ccc;
+}
+#header .mobile-menu-btn{
+    position: absolute;
+    top :0;
+    right:0;
+    display: none;
+
+}
+
+#header .mobile-menu-btn,
 #header .search-btn{
     float: right;
     line-height: 46px;
     padding: 0 21px;
-    cursor: pointer;
+    
 
 }
+#header .menu-icon,
 #header .search-icon{
     color : rgb(255, 255, 255);
     font-size: 20px;
@@ -174,9 +193,7 @@ html{
 
 
 }
-#content  {
-   
-}
+
 #content .content-section {
     width: 800px;
     max-width: 100%;
@@ -433,9 +450,7 @@ html{
     padding : 10px 16px;
     float : right;
 }
-.map-section{
-    width:100%;
-}
+
 #footer{
     padding:64px 16px ;
     text-align: center;
