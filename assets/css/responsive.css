@@ -5,6 +5,27 @@
     
 }
 @media (max-width:740px){
+    .s-full-width {
+        width: 100% !important;
+    }
+    .s-col-full{
+        width :100%;
+    }
+    .s-mt-16{
+        margin-top: 8px !important;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #header .mobile-menu-btn{
+        display: block;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #nav{
+        display: block;
+    }
     #nav > li {
         display: block;
     }
@@ -12,10 +33,20 @@
     #nav > li:first-child{
         display: inline-block;
     }
-    #header .mobile-menu-btn{
-        display: block;
+    #nav .subnav{
+        position: initial;
+        background-color:#333 ;
     }
-    #header .search-btn{
-        display: none;
+    #nav .subnav a{
+        color : #fff;
+        padding : 1px 41px;
+    }
+    #content .member-item{
+        width:100%;
+    }
+    .contact-form{
+        margin-top: 15px;
+        margin-bottom: 20px;
+        
     }
 }
