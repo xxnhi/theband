@@ -193,6 +193,7 @@ header .mobile-menu-btn:hover .menu-icon{
 #slider .text-description{
     font-size: 15px;
     margin-top: 25px;
+    text-shadow: 0 0 2px #000;
 
 
 }
@@ -210,9 +211,10 @@ header .mobile-menu-btn:hover .menu-icon{
     font-size: 30px;
     font-weight: 500;
     text-align: center;
-
-
+    
 }
+
+
 #content .section-subheading{
     font-size:15px;
     text-align: center;
@@ -227,8 +229,9 @@ header .mobile-menu-btn:hover .menu-icon{
     margin-top: 25px;
     text-align: justify;
     line-height: 1.4;
-    
-}
+    margin-left: auto;
+    margin-right:auto;
+}   
 
 #content .members-list{
     margin-top: 32px;
@@ -437,6 +440,10 @@ header .mobile-menu-btn:hover .menu-icon{
     width: 30px;
     display: inline-block;
 }
+.contact-info a{
+    color: #009688;
+}
+
 .contact-form{
     font-size: 15px;
 }
